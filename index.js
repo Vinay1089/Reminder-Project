@@ -17,7 +17,8 @@ class completeData{
         input.style.color="rgba(202, 69, 7, 0.856)"
         input.style.fontWeight="600"
         input.style.letterSpacing="1px"
-        input.style.margin="0px 5px"
+        input.style.padding="0px 8px"
+        input.style.borderRadius="20px"
 
         let itemdiv=document.createElement("div")
         itemdiv.classList.add("main")

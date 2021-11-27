@@ -53,11 +53,11 @@ class completeData{
 }
 function addEvent(){
     
-    if(input.value && date.value !== " "){
+    if(input.value && date.value !== ""){
         new completeData(`${input.value}     ${date.value}`)
         input.value= "";
         date.value="";
-    }    
+    }
 }
 
 Add.addEventListener('click', addEvent)

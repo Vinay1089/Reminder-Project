@@ -55,8 +55,8 @@ function addEvent(){
     
     if(input.value && date.value !== " "){
         new completeData(`${input.value}     ${date.value}`)
-        input.value= " ";
-        date.value=" ";
+        input.value= "";
+        date.value="";
     }    
 }
 

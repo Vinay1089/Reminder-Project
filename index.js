@@ -13,7 +13,11 @@ class completeData{
         input.disabled=true;
         input.classList.add("Header2")
         input.type ="text"
-        input.style.fontSize="22px"
+        input.style.fontSize="17px"
+        input.style.color="rgba(202, 69, 7, 0.856)"
+        input.style.fontWeight="600"
+        input.style.letterSpacing="1px"
+        input.style.margin="0px 5px"
 
         let itemdiv=document.createElement("div")
         itemdiv.classList.add("main")
@@ -49,11 +53,10 @@ class completeData{
 function addEvent(){
     
     if(input.value && date.value !== " "){
-        new completeData(`${input.value}      ${date.value}`)
+        new completeData(`${input.value}     ${date.value}`)
         input.value= " ";
         date.value=" ";
     }    
-  
 }
 
 Add.addEventListener('click', addEvent)

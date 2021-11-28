@@ -13,10 +13,10 @@ class completeData{
         input.disabled=true;
         input.classList.add("Header2")
         input.type ="text"
-        input.style.fontSize="17px"
+        input.style.fontSize="19px"
         input.style.color="rgba(202, 69, 7, 0.856)"
         input.style.fontWeight="600"
-        input.style.letterSpacing="1px"
+        input.style.letterSpacing="0.5px"
         input.style.padding="0px 8px"
         input.style.borderRadius="20px"
 
@@ -57,6 +57,9 @@ function addEvent(){
         new completeData(`${input.value}     ${date.value}`)
         input.value= "";
         date.value="";
+    }
+    if(input.value && date.value ==""){
+        window.alert("Please Add Reminder.......!")
     }
 }
 

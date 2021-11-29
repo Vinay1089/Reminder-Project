@@ -58,9 +58,6 @@ function addEvent(){
         input.value= "";
         date.value="";
     }
-    if(input.value && date.value ==""){
-        window.alert("Please Add Reminder.......!")
-    }
 }
 
 Add.addEventListener('click', addEvent)
